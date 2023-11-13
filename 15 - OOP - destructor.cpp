@@ -9,7 +9,8 @@ public:
         cout << "Constructor is called" << endl;
     }
 
-    ~destruct()
+//destructor
+    ~destruct() //"~" tilde operator
     {
         cout << "Destructor is called" << endl;
     }
