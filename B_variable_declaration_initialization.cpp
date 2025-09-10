@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include <conio.h>
 using namespace std;
 
@@ -15,10 +16,11 @@ int main()
     cout << "Integer number = " << num1 << endl;
     cout << "Integer number = " << num2 << endl;
     cout << "Float number = " << num3 << endl;
-    cout << "Double number = " << num4 << endl;
+    cout << "Double number = " << fixed << setprecision(3) << num4 << endl;
     cout << "Character = " << ch;
 
     return 0;
 
     getch();
 }
+
